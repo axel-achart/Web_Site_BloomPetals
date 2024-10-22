@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poetsen One", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body{
+    position: relative;
+}
+
+main{
+    background-color: rgb(230, 228, 226);
+    padding: 1em;
+}
+
+.blanche{
+    background-color: aliceblue;
+    padding: 2em;
+    max-width: 100%;
+}
+
+.bandeau{
+    height: 5em;
+    background-color: rgb(99, 99, 99);
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1.3em;
+    margin-left: 1em;
+    font-size: 1.3em;
+}
+
+ul li a{
+    color: black;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+}
+
+.menu li{
+    float: left;
+    padding: 2em;
+}
+
+.search{
+    text-align: right;
+    padding: 1.8em;
+    margin-right: 1em;
+}
+
+input[type="search"]{
+    font-size: 1em;
+}
+
+.Titre1{
+    font-weight: 800;
+    text-align: center;
+    font-size: 2.3em;
+    margin-top: 0.7em;
+    color: black;
+}
+footer{
+    height: 5em;
+    background-color: rgb(99, 99, 99);
+}
+
+.soustitre{
+    font-size: 1em;
+    text-align: center;
+    color: black;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+p{
+    margin-left: 14em;
+    margin-right: 14em;
+    margin-bottom: 3.5em;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+}
+
+
+.first{
+    margin-bottom: 3.5em;
+    gap: 2.5em;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 12em;
+}
+
+.second{
+    margin-bottom: 3.5em;
+    gap: 2.5em;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 12em;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .navbar ul li{
+        font-size: 1em;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    .search{
+        display: none;
+    }
+    .bandeau{
+        height: 4em;
+    }
+    .g20{
+        width: 100%;
+        position: relative;
+
+    }
+    .slider-items{
+        height: 35em;
+    }
+    .first{
+        display: none;
+    }
+    .second{
+        margin: 0;
+        padding: 0;
+        gap: 0;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+    }
+    img{
+        width: 20%;
+        height: 12em;
+        display: grid;
+        grid: 2 2;
+        justify-content: center;
+        align-content: center;
+    }
+    .mini{
+        width: 20em;
+    }
+}
+
+@media only screen and (max-width: 643px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu li{
+        justify-content: center;
+        align-content: center;
+    }
+    .bandeau{
+        height: 100%;
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+    }
+}

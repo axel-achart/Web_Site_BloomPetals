@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poetsen One", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body{
+    position: relative;
+}
+
+main{
+    background-color: rgb(230, 228, 226);
+    padding: 1em;
+}
+
+.blanche{
+    background-color: aliceblue;
+    padding: 2em;
+}
+
+.bandeau{
+    height: 5em;
+    background-color: rgb(99, 99, 99);
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1.3em;
+    margin-left: 1em;
+    font-size: 1.3em;
+}
+
+ul li a{
+    color: black;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+}
+
+.menu li{
+    float: left;
+    padding: 2em;
+}
+
+.search{
+    text-align: right;
+    padding: 1.8em;
+    margin-right: 1em;
+}
+
+input[type="search"]{
+    font-size: 1em;
+}
+
+.Titre1{
+    font-weight: 800;
+    text-align: center;
+    font-size: 2.3em;
+    margin-top: 0.7em;
+    color: black;
+    margin-bottom: 2em;
+}
+footer{
+    height: 5em;
+    background-color: rgb(99, 99, 99);
+}
+
+.gallery{
+    max-width: 60em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vmin;
+    padding: 0 15;
+    li{
+        list-style-type: none;
+        height: 14em;
+        flex-grow: 1;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+@media only screen and (max-width: 1000px){
+    .navbar ul li{
+        font-size: 1em;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    .fleurs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .search{
+        display: none;
+    }
+    .bandeau{
+        height: 4em;
+    }
+}
+
+@media only screen and (max-width: 588px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu li{
+        justify-content: center;
+        align-content: center;
+    }
+    .bandeau{
+        height: 100%;
+    }
+}
