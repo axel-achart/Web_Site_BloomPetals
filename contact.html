@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - BloomPetals</title>
+    <link rel="stylesheet" href="styles/stylesC.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+<!--Bandeau Naviguation-->
+    <div class="bandeau">
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="entreprise.html">Entreprise</a></li>
+                <li><a href="real.html">Réalisations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <search class="search">
+                <input type="search" name="q"/>
+            </search>
+        </nav>
+    </div>
+    
+    <main>
+        <section class="blanche">
+        <!--Titre-->
+            <div class="Titre1">
+                <h1>Contact</h1>
+            </div>
+
+            <div class="entrer"><h2>Pour nous contacter, remplissez ce formulaire :</h2></div>
+
+            <section class="Formulaire">
+                <section class="ligne">
+                    <label for="civil-select">Choisir sa civilité : </label>
+            
+                    <select name="civil" id="civil-select">
+                        <option value="">Choisissez votre civilité</option>
+                        <option value="M">M.</option>
+                        <option value="Mme">Mme.</option>
+                    </select>
+                </section>
+
+                <section class="ligne">
+                    <label for="nom">Nom :</label>
+                    <entry class="entry">
+                        <input type="entry" name="q"/>
+                    </entry>
+                </section>
+
+                <section class="ligne">
+                    <label for="prenom">Prénom :</label>
+                    <entry class="entry">
+                        <input type="entry" name="q"/>
+                    </entry>
+                </section>
+
+                <section class="ligne">
+                    <label for="adr">Adresse Postale :</label>
+                    <entry class="entry">
+                        <input type="entry" name="q"/>
+                    </entry>
+                </section>
+
+                <section class="ligne">
+                    <entry class="entry">
+                        <input type="checkbox"/>
+                    </entry>
+                    <label for="pol">Accepter la Politique de confidentialité de l'entreprise BloomPetals</label>
+                </section>
+
+                <section class="ligne">
+                    <button class="valid">
+                        <input type="submit" value="Valider et Envoyer">
+                    </button>
+                </section>
+
+            </section>
+        </section>
+    </main>
+
+    <footer></footer>
+
+</body>
+
+</html>
