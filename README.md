@@ -1,9 +1,19 @@
-# Project
+# 🌸 BloomPetals - Site Web
 
-Dans le cadre de mon **cursus IT spécialisé**, j'ai développé ce projet de Site Web pour une entreprise. </br>
-A l'aide d'outils comme *GitHub, Canva et Trello,* le travail a été d'une **excellente qualité.** </br>
-</br>
-Un projet comme celui-ci m'a permis de développer mes **compétences techniques** en programmation notamment en HTML & CSS avec VS Code. </br>
-Mais également en compétences générales tels que l'organisation, la priorisation des tâches, la résolution de problèmes et plus encore... 
-</br></br>
-La réalisation de ce projet a duré 5 jours.</br>
+BloomPetals est un site web conçu pour mettre en valeur une boutique de fleurs en ligne. Il offre une interface élégante et responsive permettant aux visiteurs de découvrir les différentes catégories de fleurs et services proposés.
+
+## 📂 Contenu du Dépôt
+
+Le projet est structuré comme suit :
+
+- **`index.html`** : Page principale du site web.
+- **`style.css`** : Fichier de styles CSS pour la mise en page et le design.
+- **`script.js`** *(si présent)* : Script JavaScript pour les interactions dynamiques.
+- **`assets/`** : Dossier contenant les images et ressources du site.
+- **`README.md`** : Documentation du projet.
+- **`.gitignore`** : Fichier définissant les éléments à exclure du suivi Git.
+
+## 🛠️ Langages et Technologies Utilisés
+
+- **HTML** : Structure du site web.
+- **CSS** : Mise en page et styles.
