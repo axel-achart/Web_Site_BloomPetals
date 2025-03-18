@@ -1,19 +1,19 @@
-# 🌸 BloomPetals - Site Web
+# 🌸 BloomPetals - Website
 
-BloomPetals est un site web conçu pour mettre en valeur une boutique de fleurs en ligne. Il offre une interface élégante et responsive permettant aux visiteurs de découvrir les différentes catégories de fleurs et services proposés.
+BloomPetals is a website designed to showcase an online flower shop. It features a sleek and responsive interface, allowing visitors to explore different flower categories and services.
 
-## 📂 Contenu du Dépôt
+## 📂 Repository Contents
 
-Le projet est structuré comme suit :
+The project is structured as follows:
 
-- **`index.html`** : Page principale du site web.
-- **`style.css`** : Fichier de styles CSS pour la mise en page et le design.
-- **`script.js`** *(si présent)* : Script JavaScript pour les interactions dynamiques.
-- **`assets/`** : Dossier contenant les images et ressources du site.
-- **`README.md`** : Documentation du projet.
-- **`.gitignore`** : Fichier définissant les éléments à exclure du suivi Git.
+- **`index.html`**: The main page of the website.
+- **`style.css`**: CSS file for layout and styling.
+- **`script.js`** *(if present)*: JavaScript file for dynamic interactions.
+- **`assets/`**: Folder containing images and resources.
+- **`README.md`**: Project documentation.
+- **`.gitignore`**: File specifying elements to exclude from Git tracking.
 
-## 🛠️ Langages et Technologies Utilisés
+## 🛠️ Languages & Technologies Used
 
-- **HTML** : Structure du site web.
-- **CSS** : Mise en page et styles.
+- **HTML**: Website structure.
+- **CSS**: Styling and layout.
